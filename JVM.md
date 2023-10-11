@@ -1,2 +1,11 @@
 - Jackson
   - JSON パーサーライブラリ
+- JAVA_HOME
+- JVM
+- コルーチン
+- ＠Bean
+- pom.xml
+- gradle
+- application.yml
+- mvn
+-
