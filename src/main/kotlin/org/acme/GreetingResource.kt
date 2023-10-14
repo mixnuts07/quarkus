@@ -10,23 +10,23 @@ import Greeting
 @Path("/hello")
 class ReactiveGreetingResource {
     
-    @GET
-    fun getTodo(todoId: String) {
-        println("getTodo: ${todoId}}")
-    }
+    // @GET
+    // fun getTodo(todoId: String) {
+    //     println("getTodo: ${todoId}}")
+    // }
 
     @GET
     fun getTodos() {
         println("getTodos")
     }
 
-    @POST
-    fun createTodo() {
-        println("createTodo")
-    }
+    // @POST
+    // fun createTodo() {
+    //     println("createTodo")
+    // }
 
-    @PUT
-    fun updateTodo(todoId: String) {
-        println("updateTodo: ${todoId}}")
-    }
+    // @PUT
+    // fun updateTodo(todoId: String) {
+    //     println("updateTodo: ${todoId}}")
+    // }
 }
